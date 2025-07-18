@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문지혜 - 교육 혁신가 & 프로젝트 개발 매니저</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            line-height: 1.6;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #E8F4FD 0%, #2E86AB 100%);
+        }
+        .card-shadow {
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .skill-badge {
+            background: linear-gradient(135deg, #2E86AB, #A23B72);
+            color: white;
+        }
+        .section-title {
+            border-bottom: 3px solid #2E86AB;
+            display: inline-block;
+            padding-bottom: 8px;
+        }
+        .timeline-item {
+            border-left: 3px solid #2E86AB;
+            padding-left: 20px;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -8px;
+            top: 0;
+            width: 13px;
+            height: 13px;
+            background: #2E86AB;
+            border-radius: 50%;
+        }
+        .expertise-card {
+            transition: transform 0.3s ease;
+        }
+        .expertise-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header Section -->
+    <header class="gradient-bg text-white py-16">
+        <div class="container mx-auto px-6 text-center">
+            <div class="w-32 h-32 bg-white rounded-full mx-auto mb-6 flex items-center justify-center card-shadow">
+                <i class="fas fa-user-graduate text-6xl text-blue-600"></i>
+            </div>
+            <h1 class="text-4xl font-bold mb-4">문지혜</h1>
+            <p class="text-xl mb-2">교육 혁신가 & 프로젝트 개발 매니저</p>
+            <p class="text-lg opacity-90">미래를 디자인하는 교육 전문가</p>
+            <div class="mt-6 flex justify-center space-x-4">
+                <a href="mailto:jihye.moon@lab4dx.com" class="bg-white text-blue-600 px-6 py-2 rounded-full hover:bg-gray-100 transition">
+                    <i class="fas fa-envelope mr-2"></i>연락하기
+                </a>
+                <a href="https://www.linkedin.com/in/jihye-moon-135b62260" class="bg-blue-700 text-white px-6 py-2 rounded-full hover:bg-blue-800 transition">
+                    <i class="fab fa-linkedin mr-2"></i>LinkedIn
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+        <!-- About Section -->
+        <section class="mb-16">
+            <div class="bg-white rounded-lg card-shadow p-8">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6 section-title">About</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <p class="text-gray-700 mb-4">
+                            인천대학교에서 교육학(HRD 전공) 박사과정을 수료한 교육 전문가로, 현재 Lab4DX에서 프로젝트 개발 매니저로 활동하고 있습니다.
+                            직업교육 및 HRD 분야에서 디지털 전환(DX), ESG 실천 전략, 지속가능한 인재 개발을 중심으로 교육 콘텐츠를 기획하고 있습니다.
+                        </p>
+                        <p class="text-gray-700">
+                            미래지향적인 교육 솔루션을 통해 조직과 개인의 성장을 돕는 데 전념하고 있으며,
+                            교육과 기술의 융합을 통한 혁신적인 학습 경험 창출에 관심이 많습니다.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">핵심 가치</h3>
+                        <ul class="space-y-2">
+                            <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-2"></i>혁신적 교육 솔루션</li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-2"></i>지속가능한 성장</li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-2"></i>디지털 전환 리더십</li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-2"></i>인간 중심 기술</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Current Role Section -->
+        <section class="mb-16">
+            <div class="bg-white rounded-lg card-shadow p-8">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6 section-title">Current Role</h2>
+                <div class="timeline-item">
+                    <div class="flex items-center mb-2">
+                        <h3 class="text-xl font-semibold text-gray-800">Project Development Manager</h3>
+                        <span class="ml-3 px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Current</span>
+                    </div>
+                    <p class="text-blue-600 font-medium mb-2">Lab4DX • 2025년 5월 - 현재</p>
+                    <p class="text-gray-700">
+                        디지털 전환(DX) 전문 기업에서 프로젝트 개발을 담당하며, 교육 콘텐츠 기획 및 혁신적인 학습 솔루션 개발을 주도하고 있습니다.
+                        ESG 실천 전략과 지속가능한 인재 개발 프로그램을 통해 조직의 미래 경쟁력 강화에 기여하고 있습니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="mb-16">
+            <div class="bg-white rounded-lg card-shadow p-8">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6 section-title">Education</h2>
+                <div class="timeline-item">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">교육학 박사과정 수료</h3>
+                    <p class="text-blue-600 font-medium mb-2">인천대학교 • HRD 전공</p>
+                    <p class="text-gray-700">
+                        인적자원개발(HRD) 전공으로 교육학 박사과정을 수료하며, 직업교육과 성인학습 분야의 깊은 학문적 기반을 구축했습니다.
+                        특히 디지털 시대의 교육 혁신과 지속가능한 인재 개발 전략에 대한 전문성을 갖추었습니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Expertise Section -->
+        <section class="mb-16">
+            <div class="bg-white rounded-lg card-shadow p-8">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6 section-title">Expertise</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="expertise-card bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg">
+                        <i class="fas fa-digital-tachograph text-3xl text-blue-600 mb-4"></i>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">디지털 전환 (DX)</h3>
+                        <p class="text-gray-600 text-sm">교육 분야의 디지털 혁신을 주도하며, 기술과 교육의 융합을 통한 새로운 학습 경험을 창출합니다.</p>
+                    </div>
+                    <div class="expertise-card bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg">
+                        <i class="fas fa-leaf text-3xl text-green-600 mb-4"></i>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">ESG 실천 전략</h3>
+                        <p class="text-gray-600 text-sm">지속가능한 경영과 사회적 책임을 교육 프로그램에 통합하여 실질적인 변화를 만들어냅니다.</p>
+                    </div>
+                    <div class="expertise-card bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-lg">
+                        <i class="fas fa-users text-3xl text-purple-600 mb-4"></i>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">지속가능한 인재 개발</h3>
+                        <p class="text-gray-600 text-sm">개인과 조직의 장기적 성장을 위한 체계적인 인재 개발 전략을 수립하고 실행합니다.</p>
+                    </div>
+                    <div class="expertise-card bg-gradient-to-br from-red-50 to-red-100 p-6 rounded-lg">
+                        <i class="fas fa-chalkboard-teacher text-3xl text-red-600 mb-4"></i>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">교육 콘텐츠 기획</h3>
+                        <p class="text-gray-600 text-sm">학습자 중심의 혁신적인 교육 콘텐츠를 기획하고 개발하여 효과적인 학습 결과를 도출합니다.</p>
+                    </div>
+                    <div class="expertise-card bg-gradient-to-br from-yellow-50 to-yellow-100 p-6 rounded-lg">
+                        <i class="fas fa-project-diagram text-3xl text-yellow-600 mb-4"></i>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">프로젝트 관리</h3>
+                        <p class="text-gray-600 text-sm">복잡한 교육 프로젝트를 체계적으로 관리하며, 이해관계자들과의 협력을 통해 성공적인 결과를 달성합니다.</p>
+                    </div>
+                    <div class="expertise-card bg-gradient-to-br from-indigo-50 to-indigo-100 p-6 rounded-lg">
+                        <i class="fas fa-brain text-3xl text-indigo-600 mb-4"></i>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">HRD 전략</h3>
+                        <p class="text-gray-600 text-sm">조직의 인적자원 개발 전략을 수립하고, 직업교육 및 성인학습 프로그램을 설계합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="mb-16">
+            <div class="bg-white rounded-lg card-shadow p-8">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6 section-title">Skills & Competencies</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Technical Skills</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-badge px-3 py-1 rounded-full text-sm">교육 콘텐츠 개발</span>
+                            <span class="skill-badge px-3 py-1 rounded-full text-sm">LMS 설계</span>
+                            <span class="skill-badge px-3 py-1 rounded-full text-sm">디지털 교육 도구</span>
+                            <span class="skill-badge px-3 py-1 rounded-full text-sm">데이터 분석</span>
+                            <span class="skill-badge px-3 py-1 rounded-full text-sm">교육 평가</span>
+                            <span class="skill-badge px-3 py-1 rounded-full text-sm">프로젝트 관리</span>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Soft Skills</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-badge px-3 py-1 rounded-full text-sm">전략적 사고</span>
+                            <span class="skill-badge px-3 py-1 rounded-full text-sm">창의적 문제 해결</span>
+                            <span class="skill-badge px-3 py-1 rounded-full text-sm">팀 리더십</span>
+                            <span class="skill-badge px-3 py-1 rounded-full text-sm">의사소통</span>
+                            <span class="skill-badge px-3 py-1 rounded-full text-sm">변화 관리</span>
+                            <span class="skill-badge px-3 py-1 rounded-full text-sm">협업</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vision Section -->
+        <section class="mb-16">
+            <div class="bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg card-shadow p-8">
+                <h2 class="text-3xl font-bold mb-6">Vision & Mission</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4"><i class="fas fa-eye mr-2"></i>비전</h3>
+                        <p class="text-blue-100">
+                            교육과 기술의 융합을 통해 인간 중심의 지속가능한 학습 생태계를 구축하고,
+                            모든 사람이 자신의 잠재력을 최대한 발휘할 수 있는 교육 환경을 조성합니다.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4"><i class="fas fa-bullseye mr-2"></i>미션</h3>
+                        <p class="text-blue-100">
+                            혁신적인 교육 솔루션과 지속가능한 인재 개발 전략을 통해 개인과 조직의 성장을 촉진하고,
+                            사회 전체의 교육 혁신을 주도하는 전문가로 활동합니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="mb-16">
+            <div class="bg-white rounded-lg card-shadow p-8 text-center">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6 section-title">Let's Connect</h2>
+                <p class="text-gray-600 mb-8">
+                    교육 혁신과 지속가능한 인재 개발에 관심이 있으시다면, 언제든지 연락주세요!
+                </p>
+                <div class="flex justify-center space-x-6">
+                    <a href="mailto:jihye.moon@lab4dx.com" class="flex items-center text-blue-600 hover:text-blue-800 transition">
+                        <i class="fas fa-envelope text-2xl mr-3"></i>
+                        <span>jihye.moon@lab4dx.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jihye-moon-135b62260" class="flex items-center text-blue-600 hover:text-blue-800 transition">
+                        <i class="fab fa-linkedin text-2xl mr-3"></i>
+                        <span>LinkedIn Profile</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 문지혜. All rights reserved.</p>
+            <p class="text-gray-400 mt-2">미래를 디자인하는 교육 혁신가</p>
+        </div>
+    </footer>
+</body>
+</html>
