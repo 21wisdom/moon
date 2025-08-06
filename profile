@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>문지혜 - 교육 혁신가 & 프로젝트 개발 매니저</title>
+    <title>문지혜 - 연구와 실무를 넘나들며, 조직의 성장을 설계하는 HRD 전문가</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -59,10 +59,10 @@
                 <i class="fas fa-user-graduate text-6xl text-blue-600"></i>
             </div>
             <h1 class="text-4xl font-bold mb-4">문지혜</h1>
-            <p class="text-xl mb-2">교육 혁신가 & 프로젝트 개발 매니저</p>
+            <p class="text-xl mb-2">연구와 실무를 넘나들며, 조직의 성장을 설계하는 HRD 전문가</p>
             <p class="text-lg opacity-90">미래를 디자인하는 교육 전문가</p>
             <div class="mt-6 flex justify-center space-x-4">
-                <a href="mailto:jihye.moon@lab4dx.com" class="bg-white text-blue-600 px-6 py-2 rounded-full hover:bg-gray-100 transition">
+                <a href="mailto:21wisdom@gmail.com" class="bg-white text-blue-600 px-6 py-2 rounded-full hover:bg-gray-100 transition">
                     <i class="fas fa-envelope mr-2"></i>연락하기
                 </a>
                 <a href="https://www.linkedin.com/in/jihye-moon-135b62260" class="bg-blue-700 text-white px-6 py-2 rounded-full hover:bg-blue-800 transition">
@@ -81,11 +81,11 @@
                 <div class="grid md:grid-cols-2 gap-8">
                     <div>
                         <p class="text-gray-700 mb-4">
-                            인천대학교에서 교육학(HRD 전공) 박사과정을 수료한 교육 전문가로, 현재 Lab4DX에서 프로젝트 개발 매니저로 활동하고 있습니다. 
-                            직업교육 및 HRD 분야에서 디지털 전환(DX), ESG 실천 전략, 지속가능한 인재 개발을 중심으로 교육 콘텐츠를 기획하고 있습니다.
+                            인천대학교에서 교육학(HRD 전공) 박사과정을 수료한 교육 전문가로, 현재 Lab4DX에서 프로젝트 개발 매니저로 활동하고 있습니다.
+                            직업교육 및 HRD 분야에서 디지털 전환(DX/AX), ESG 전략 연계, 지속가능한 인재 개발을 중심으로 교육 콘텐츠를 기획하고 있습니다.
                         </p>
                         <p class="text-gray-700">
-                            미래지향적인 교육 솔루션을 통해 조직과 개인의 성장을 돕는 데 전념하고 있으며, 
+                            미래지향적인 교육 솔루션을 통해 조직과 개인의 성장을 돕는 데 전념하고 있으며,
                             교육과 기술의 융합을 통한 혁신적인 학습 경험 창출에 관심이 많습니다.
                         </p>
                     </div>
@@ -113,8 +113,8 @@
                     </div>
                     <p class="text-blue-600 font-medium mb-2">Lab4DX • 2025년 5월 - 현재</p>
                     <p class="text-gray-700">
-                        디지털 전환(DX) 전문 기업에서 프로젝트 개발을 담당하며, 교육 콘텐츠 기획 및 혁신적인 학습 솔루션 개발을 주도하고 있습니다.
-                        ESG 실천 전략과 지속가능한 인재 개발 프로그램을 통해 조직의 미래 경쟁력 강화에 기여하고 있습니다.
+                        디지털 전환(DX/AX) 전문 기업에서 프로젝트 개발을 담당하며, 교육 콘텐츠 기획 및 혁신적인 학습 솔루션 개발을 주도하고 있습니다.
+                        조직의 기술 혁신과 ESG 전략을 연계한 지속가능한 인재 개발 프로그램 개발과 연구 통해 조직의 미래 경쟁력 강화에 기여하고 있습니다.
                     </p>
                 </div>
             </div>
@@ -142,7 +142,7 @@
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <div class="expertise-card bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg">
                         <i class="fas fa-digital-tachograph text-3xl text-blue-600 mb-4"></i>
-                        <h3 class="text-lg font-semibold text-gray-800 mb-2">디지털 전환 (DX)</h3>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">디지털 전환 (DX/AX)</h3>
                         <p class="text-gray-600 text-sm">교육 분야의 디지털 혁신을 주도하며, 기술과 교육의 융합을 통한 새로운 학습 경험을 창출합니다.</p>
                     </div>
                     <div class="expertise-card bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg">
@@ -213,20 +213,61 @@
                     <div>
                         <h3 class="text-xl font-semibold mb-4"><i class="fas fa-eye mr-2"></i>비전</h3>
                         <p class="text-blue-100">
-                            교육과 기술의 융합을 통해 인간 중심의 지속가능한 학습 생태계를 구축하고, 
+                            교육과 기술의 융합을 통해 인간 중심의 지속가능한 학습 생태계를 구축하고,
                             모든 사람이 자신의 잠재력을 최대한 발휘할 수 있는 교육 환경을 조성합니다.
                         </p>
                     </div>
                     <div>
                         <h3 class="text-xl font-semibold mb-4"><i class="fas fa-bullseye mr-2"></i>미션</h3>
                         <p class="text-blue-100">
-                            혁신적인 교육 솔루션과 지속가능한 인재 개발 전략을 통해 개인과 조직의 성장을 촉진하고, 
+                            혁신적인 교육 솔루션과 지속가능한 인재 개발 전략을 통해 개인과 조직의 성장을 촉진하고,
                             사회 전체의 교육 혁신을 주도하는 전문가로 활동합니다.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- Research Section -->
+<section class="mb-16">
+  <div class="bg-white rounded-lg card-shadow p-8">
+    <h2 class="text-3xl font-bold text-gray-800 mb-6 section-title">📚 연구 실적 (최근순)</h2>
+    <ul class="space-y-6 text-gray-700 leading-relaxed">
+      <li>
+        <strong>문지혜, 이상희, 김태성</strong> (2025)<br>
+        <em>국내 HRD 분야의 디지털 전환 관련 연구 동향 분석</em><br>
+        HRD연구, <strong>27(2)</strong>, 1–28.<br>
+        👉 <a href="https://doi.org/10.18211/kjhrdq.2025.27.2.001" class="text-blue-600 underline">DOI 바로가기</a>
+      </li>
+      <li>
+        <strong>한기순, 이영란, 문지혜, 김미화</strong> (2025)<br>
+        <em>과학기술문화 향유 제고를 위한 분석도구 개발</em><br>
+        과학기술학연구, <strong>25(1)</strong>, 64–87.<br>
+        👉 <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003195984" class="text-blue-600 underline">KCI 바로가기</a>
+      </li>
+      <li>
+        <strong>김동관, 이영란, 문지혜</strong> (2023)<br>
+        <em>인천 과학문화 활성화 방안 연구</em><br>
+        👉 <a href="https://itp.or.kr/intro.asp?tmid=362&seq=7987" class="text-blue-600 underline">연구 보고서 보기</a>
+      </li>
+      <li>
+        <strong>문지혜, & 김태성</strong> (2022)<br>
+        <em>CEO 의 ESG 메시지에 대한 의미연결망 분석과 지속가능 HRD</em><br>
+        HRD 연구, <strong>24(3)</strong>, 73–99.<br>
+        👉 <a href="https://doi.org/10.18211/kjhrdq.2022.24.3.003" class="text-blue-600 underline">DOI 바로가기</a><br>
+        발행기관: 한국인력개발학회
+      </li>
+      <li>
+        <strong>곽용성, 김동우, 문지혜, 이상희, & 김태성</strong> (2022)<br>
+        <em>국내 무형식학습 연구의 의미구조와 상호관계성 고찰: 의미연결망 분석을 중심으로</em><br>
+        기업교육과 인재연구, <strong>24(1)</strong>, 89–122.<br>
+        👉 <a href="https://doi.org/10.46260/KSLP.24.1.4" class="text-blue-600 underline">DOI 바로가기</a><br>
+        발행기관: 한국기업교육학회
+      </li>
+    </ul>
+  </div>
+</section>
+
 
         <!-- Contact Section -->
         <section class="mb-16">
@@ -236,9 +277,9 @@
                     교육 혁신과 지속가능한 인재 개발에 관심이 있으시다면, 언제든지 연락주세요!
                 </p>
                 <div class="flex justify-center space-x-6">
-                    <a href="mailto:jihye.moon@lab4dx.com" class="flex items-center text-blue-600 hover:text-blue-800 transition">
+                    <a href="mailto:21wisdom@gmail.com" class="flex items-center text-blue-600 hover:text-blue-800 transition">
                         <i class="fas fa-envelope text-2xl mr-3"></i>
-                        <span>jihye.moon@lab4dx.com</span>
+                        <span>21wisdom@gmail.com</span>
                     </a>
                     <a href="https://www.linkedin.com/in/jihye-moon-135b62260" class="flex items-center text-blue-600 hover:text-blue-800 transition">
                         <i class="fab fa-linkedin text-2xl mr-3"></i>
